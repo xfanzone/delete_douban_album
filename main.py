@@ -3,8 +3,14 @@ from bs4 import BeautifulSoup
 import pdb
 
 album_url = 'https://www.douban.com/photos/album/156951271/'
-start = 0
+cookie_file = 'cookie.txt'
 
+with open(cookie_file, 'rb') as 
+
+
+
+
+start = 0
 while True:
     target_album = album_url + '?start=%d'%(start)
     pdb.set_trace()
